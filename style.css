@@ -1,0 +1,28 @@
+.block {opacity:0.7; filter: alpha(opacity=70);background:#c0c0c0; border: none; height:96; width:320px; float:left; margin:2px; border-radius: 10px;}
+body {background-color: #404040; margin: 0px; background: url('background1.jpg') ; }
+.traceroute0 { color:black; width:16px;height:20px;transform: rotate(90deg);float:left;}
+.traceroute1 { color:green; width:16px;height:20px;transform: rotate(90deg);float:left;}
+.traceroute2 { color:yellow; width:16px;height:20px;transform: rotate(90deg);float:left;}
+.traceroute3 { color:#e08000; width:16px;height:20px;transform: rotate(90deg);float:left;}
+.traceroute4 { color:red; width:16px;height:20px;transform: rotate(90deg);float:left;}
+.traceroute5 { color:blue; width:16px;height:20px;transform: rotate(90deg);float:left;}
+.ownip { background-color:red ;background: linear-gradient(red, yellow); }
+.disabled { background-color:red ; margin-right: 5px; }
+path { 
+    stroke: steelblue;
+    stroke-width: 2;
+    fill: none;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+svg {float:left;}
+.arp_vendor {font-size:9px;}
+.diskfree {font-size:12px;}
+.dnslog {font-size:12px;}
